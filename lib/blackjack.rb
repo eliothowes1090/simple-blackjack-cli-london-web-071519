@@ -68,7 +68,7 @@ def runner
   initial_round
   first_round = intial_round
   hit?(first_round)
-  if hit?(initial_round) > 21
-    return end_game(hit?(initial_round))
+  if hit?(first_round) > 21
+    return end_game(hit?(first_round))
   end
 end
