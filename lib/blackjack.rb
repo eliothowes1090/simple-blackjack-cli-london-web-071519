@@ -70,9 +70,7 @@ def runner
   # code runner here
   welcome
   initial_round
-  # while display_card_total < 21 do
-  #   hit?(card_total)
-  # end
+  hit?(card_total)
 
 end
 
