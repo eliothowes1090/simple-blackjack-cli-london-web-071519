@@ -70,7 +70,7 @@ def runner
   # code runner here
   welcome
   initial_round
-  hit?(card_total)
+  hit?(intial_round)
 
 end
 
