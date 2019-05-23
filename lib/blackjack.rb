@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -44,6 +46,8 @@ def hit?(n)
   # code hit? here
   prompt_user
 end
+
+binding.pry
 
 def invalid_command
   # code invalid_command here
