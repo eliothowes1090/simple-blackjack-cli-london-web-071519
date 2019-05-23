@@ -1,3 +1,5 @@
+require 'pry'
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -40,11 +42,13 @@ def initial_round
   return card_total
 end
 
+binding.pry
+
 def hit?(n)
   # code hit? here
   prompt_user
   get_user_input
-  
+
 end
 
 def invalid_command
