@@ -45,6 +45,7 @@ end
 def hit?(n)
   # code hit? here
   prompt_user
+  get_user_input
 end
 
 binding.pry
