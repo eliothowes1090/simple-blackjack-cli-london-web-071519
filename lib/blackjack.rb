@@ -65,10 +65,10 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  hit?(initial_round)
-  while hit?(initial_round) < 21 do
-    hit?(initial_round)
+  card_total = initial_round
+  while card_total < 21 do
+    card_total = hit?(initial_round)
+    return card total
   end
   return end_game(hit?(initial_round))
 end
