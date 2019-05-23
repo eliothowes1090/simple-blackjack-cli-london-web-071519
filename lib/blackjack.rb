@@ -27,7 +27,7 @@ def get_user_input
 end
 
 
-binding.pry
+# binding.pry
 
 
 def end_game(card_total)
