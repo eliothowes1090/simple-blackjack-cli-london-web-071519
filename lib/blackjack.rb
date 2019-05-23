@@ -70,4 +70,5 @@ def runner
   while hit?(initial_round) < 21 do
     hit?(initial_round)
   end
+  return end_game
 end
