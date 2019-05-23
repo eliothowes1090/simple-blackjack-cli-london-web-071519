@@ -44,7 +44,7 @@ def hit?(n)
   # code hit? here
   prompt_user
   get_user_input
-  display_card_total(20)
+  display_card_total()
 end
 
 def invalid_command
