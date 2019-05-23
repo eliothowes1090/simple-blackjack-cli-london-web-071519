@@ -50,7 +50,7 @@ def hit?(n)
   if get_user_input == "h"
     card_total += deal_card
     return display_card_total(card_total)
-  else 
+  else
     return display_card_total(card_total)
   end
 end
